@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+
+  '''color palletes
+  --black: #121212;
+  --dark-blue: #19202D;
+  --white: #FFFFFF;
+  --grey-100: #E7EAEE;
+  --grey-200: #CFCFCF;
+  --grey-400: #676D7E;
+  --grey-500: #48556A;
+  --purple-50: #EDE4FF;
+  --purple-300: #A775F1;
+  --purple-500: #733FC8;
+
+  '''text presets
+  --textpreset-1: 600 20px/1.2 'Barlow Condensed',sans-serif;
+  --textpreset-2: 500 13px/1.1 'Barlow Condensed',sans-serif;
+  --textpreset-3: 500 13px/1.4 'Barlow Condensed',sans-serif;
+  --textpreset-4: 500 11px/1.1 'Barlow Condensed',sans-serif;
+
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../public/fonts/Barlow_condensed/BarlowCondensed-SemiBold.ttf") format(truetype);
+  font-weight: 600;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../public/fonts/Barlow_condensed/BarlowCondensed-Medium.ttf") format(truetype);
+  font-weight: 500;
+  font-style:normal;
+}
+*{
+  padding:0;
+  margin:0;
+}
