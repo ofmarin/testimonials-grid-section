@@ -1,6 +1,7 @@
 :root{
 
-  '''color palletes
+  /*color palletes*/
+
   --black: #121212;
   --dark-blue: #19202D;
   --white: #FFFFFF;
@@ -12,11 +13,12 @@
   --purple-300: #A775F1;
   --purple-500: #733FC8;
 
-  '''text presets
-  --textpreset-1: 600 20px/1.2 'Barlow Condensed',sans-serif;
+  /*text presets*/
+
   --textpreset-2: 500 13px/1.1 'Barlow Condensed',sans-serif;
   --textpreset-3: 500 13px/1.4 'Barlow Condensed',sans-serif;
   --textpreset-4: 500 11px/1.1 'Barlow Condensed',sans-serif;
+  --textpreset-1: 600 20px/1.2 'Barlow Condensed',sans-serif;
 
 }
 @font-face {
@@ -32,7 +34,13 @@
   font-weight: 500;
   font-style:normal;
 }
+
 *{
   padding:0;
   margin:0;
+}
+
+body{
+  height: 100%;
+  background-color: var(--grey-100);
 }

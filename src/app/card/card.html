@@ -1,0 +1,16 @@
+
+<article id="card" [class]="testimonials()">
+  <header>
+  <figure>
+    <img [ngSrc]= testimonial().image alt="Avatar" height="32" width="32">
+  </figure>
+  <div>
+    <p id ="name">{{testimonial().name}}</p>
+    <p id="status">{{testimonial().status}}</p>
+  </div>
+  </header>
+  <div id="content">
+    <h1 id="description">{{testimonial().description}}</h1>
+    <p id="testimonial">{{testimonial().content}}</p>
+  </div>
+</article>

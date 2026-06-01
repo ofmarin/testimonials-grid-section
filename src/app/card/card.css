@@ -1,0 +1,67 @@
+#card{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  padding: 32px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+header{
+  display: flex;
+  gap: 17px;
+  div{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+  }
+}
+#content h1{
+  font: var(--textpreset-1);
+}
+#content{
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#name{
+  font: var(--textpreset-2);
+}
+
+#status{
+  font: var(--textpreset-4);
+}
+
+#testimonial{
+  font: var(--textpreset-3);
+}
+
+figure{
+  align-self: center;
+}
+figure img{
+  border-radius: 50%;
+}
+
+.daniel{
+  background-color: var(--purple-500);
+  color: var(--white)
+}
+.jonathan{
+  background-color: var(--grey-400);
+  color: var(--white)
+}
+.jeanette{
+  background-color: var(--white);
+}
+.patrick{
+  background-color: var(--dark-blue);
+  color: var(--white)
+}
+.kira{
+  background-color: var(--white);
+}
+
